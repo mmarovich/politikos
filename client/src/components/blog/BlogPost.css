@@ -1,0 +1,36 @@
+.post-container {
+    width: 650px;
+    margin: auto;
+}
+
+.blog-title {
+    text-align: left;
+}
+
+.timeStamp-container {
+    text-align: left;
+}
+
+.timeStamp-container > p {
+    font-size: 10px;
+}
+
+.blogBody-container {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.blogBody-container > p {
+    padding: 5px;
+}
+
+.signed-container {
+    text-align: right;
+}
+
+@media screen and (max-width: 700px) {
+    .post-container {
+        width: 300px;
+        margin: 0
+    }
+}

@@ -1,0 +1,30 @@
+.office-container {
+    background-color: rgba(176, 190, 197, 1);
+    border-radius: 1%;
+}
+
+.office {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+@media screen and (max-width: 480px) {
+    .office {
+        width: 100%;
+    }
+}
+
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+    .office {
+        width: 33%;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    .office {
+        width: 25%;
+    }
+  }

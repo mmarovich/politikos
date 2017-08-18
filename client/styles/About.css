@@ -1,0 +1,24 @@
+.about-container {
+    padding: 50px 0;
+}
+
+.purpose {
+    margin: auto;
+    width: 500px;
+}
+
+.purpose > h3 {
+    text-align: center;
+}
+
+.purpose > p {
+    text-align: left;
+    padding: 10px;
+}
+
+.purpose > ul li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-indent: 20px;
+    padding: 10px;
+}

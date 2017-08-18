@@ -1,0 +1,37 @@
+.post {
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px 0 0 0;
+    background-color: rgba(236, 239, 241, 1);
+}
+
+.posted-headline {
+    padding: 3px;
+}
+
+.posted-link {
+    padding: 3px;
+}
+
+.postedBy {
+    padding: 3px;
+    text-align: right;
+}
+
+.postedBy > p {
+    font-size: 10px;
+}
+
+.comments-container {
+    padding-left: 15px;
+    background-color: rgba(176, 190, 197, 1);
+}
+
+@media screen and (min-width: 1024px) {
+    .post {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 10px 5%;
+    }
+}

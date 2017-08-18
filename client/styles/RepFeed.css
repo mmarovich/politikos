@@ -1,0 +1,23 @@
+.repFeed {
+    min-height: calc(100% - 94px);
+    background-color: rgba(176, 190, 197, 1);
+    padding: 15px;
+}
+
+.no-feed {
+    margin: 10px;
+    text-align: center;
+}
+
+.rep-header-container {
+    text-align: center;
+}
+
+.rep-photo-container {
+    margin: auto;
+    width: 200px;
+}
+
+.rep-photo {
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+.commentBox-container {
+    background-color: rgba(176, 190, 197, 1);
+    padding: 0 0 10px 0;
+}
+
+#comment {
+    width: 280px;
+    height: 40px;
+    margin: 0 15px 0 15px;
+}
+
+.comment-button {
+  vertical-align: top;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  color: #ECEFF1;
+  font-size: 14px;
+  background: #455A64;
+  padding: 3px 5px 3px 5px;
+  text-decoration: none;
+}
+
+.comment-button:hover {
+  background: #90A4AE;
+  background-image: -webkit-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -moz-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -ms-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -o-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: linear-gradient(to bottom, #90A4AE, #90A4AE);
+  text-decoration: none;
+}

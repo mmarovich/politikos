@@ -1,0 +1,28 @@
+.header-title-container {
+    padding: 8px 0 0 8px;
+}
+
+.header-title > div {
+    width: 164px;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(69, 90, 100), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-subtitle > div {
+    width: 240px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin: -5px 0 0 0;
+    font-size: 12px;
+    background: linear-gradient(90deg, rgba(69, 90, 100, 1), black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-button {
+    background-color: white;
+}

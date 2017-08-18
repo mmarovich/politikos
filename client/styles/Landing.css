@@ -1,0 +1,18 @@
+.landing-container {
+    width: 70%;
+    min-height: calc(100% - 94px - 56px);
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.introduction-container {
+    margin: 30px;
+}
+
+.introduction-container > h1 {
+    font-family: 'Cinzel', serif;
+}
+
+h1, h4, h5 {
+    padding: 2px;
+}

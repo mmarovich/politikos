@@ -1,0 +1,53 @@
+.postform-container {
+    margin: 10px 5%;
+    width: 60%;
+}
+
+.text-area-container {
+    background-color: white;
+}
+
+#linkField {
+    width: 75%;
+    margin: 5px 0;
+}
+
+.post-button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  color: #ECEFF1;
+  font-size: 18px;
+  background: #455A64;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.post-button:hover {
+  background: #90A4AE;
+  background-image: -webkit-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -moz-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -ms-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -o-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: linear-gradient(to bottom, #90A4AE, #90A4AE);
+  text-decoration: none;
+}
+
+.postIt-button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  color: #ECEFF1;
+  font-size: 14px;
+  background: #455A64;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.postIt-button:hover {
+  background: #90A4AE;
+  background-image: -webkit-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -moz-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -ms-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: -o-linear-gradient(top, #90A4AE, #90A4AE);
+  background-image: linear-gradient(to bottom, #90A4AE, #90A4AE);
+  text-decoration: none;
+}
