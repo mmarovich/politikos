@@ -9,7 +9,8 @@ import Footer from './components/footer/Footer';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import About from './components/About';
-import Blog from './components/blog/Blog'
+import Blog from './components/blog/Blog';
+import Contact from './components/Contact';
 import EmailVerification from './components/EmailVerification';
 import Account from './components/Account';
 import YourReps from './components/reps/Yourreps';
@@ -31,6 +32,7 @@ class App extends Component {
             <Route path="/login" exact component={Login} />
             <Route path="/about" exact component={About} />
             <Route path="/blog" exact component={Blog} />
+            <Route path="/contact" exact component={Contact} />
             <Route path="/email-verification" component={EmailVerification} />
             <Route path="/account" exact render={() => (
               this.props.isLoggedIn ? <Account /> :

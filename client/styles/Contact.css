@@ -1,0 +1,10 @@
+.contact-container {
+    padding: 30px;
+    text-align: center;
+    min-height: calc(100% - 94px - 56px);
+    margin: 30px auto 0;
+}
+
+.contact-container > h3 {
+    padding: 30px;
+}

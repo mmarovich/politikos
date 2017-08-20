@@ -98,7 +98,7 @@ class RepFeed extends Component {
                         <h1 className="rep-header">{this.props.pointer.name}</h1>
                     </div>
                     <div className="rep-photo-container">
-                        <img className="rep-photo" alt="representative" src={this.props.pointer.photoUrl} />
+                        <img className="rep-photo" src={this.props.pointer.photoUrl} />
                     </div>
                     <div className="no-feed">
                         <p>Guess what?  No feed has been started for {this.props.pointer.name}. Be the first to post something!</p>
@@ -113,7 +113,7 @@ class RepFeed extends Component {
                         <h1 className="rep-header">{this.props.pointer.name}</h1>
                     </div>
                     <div className="rep-photo-container">
-                        <img className="rep-photo" alt="representative" src={this.props.pointer.photoUrl} />
+                        <img className="rep-photo" src={this.props.pointer.photoUrl} />
                     </div>
                     <FeedPostForm showFeed={this.showFeed}/>
                     <Feed />

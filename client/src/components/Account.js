@@ -59,10 +59,10 @@ class Account extends Component {
 
     yourLocation() {
         if (!this.props.location) {
-            return <div className="yourLocation"><p>Please set your location</p></div>;
+            return <div className="yourLocation"><p style={{color: 'red', fontSize: '20px'}}>Please set your location</p></div>;
         }
         if (this.props.location) {
-            return <div className="yourLocation"><p>{'Location set to: ' + this.props.location.city + ", " + this.props.location.state}</p></div>
+            return <div className="yourLocation"><p style={{color: 'black', fontSize: '15px'}}>{'Location set to: ' + this.props.location.city + ", " + this.props.location.state}</p></div>
         }
     }
 

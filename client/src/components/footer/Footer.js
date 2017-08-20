@@ -42,7 +42,7 @@ class BottomNavigationExampleSimple extends Component {
                         onTouchTap={() => this.select(1)}
                     />
                 </Link>
-                <Link to="/">
+                <Link to="/contact">
                     <BottomNavigationItem
                         label="Contact"
                         icon={<ContactIcon style={styles.footerIcon} />}

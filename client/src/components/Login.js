@@ -30,6 +30,7 @@ class Login extends Component {
         .then(data => {
             return store.dispatch(actions.repsUpdate(data))   
         })
+        .then(() => this.props.history.push('/your-reps'))
         .catch(error => console.log(error));
     }
 
@@ -62,12 +63,12 @@ class Login extends Component {
         })
         .then(user => {
             if (user.userInfo.location === null) {
-                return;
+                return this.props.history.push('/account');
             }
             let location = user.userInfo.location.line1 + " " + user.userInfo.location.city + ", " + user.userInfo.location.state + " " + user.userInfo.location.zip || "";       
             this.getDataFromApi(location);
         })
-        .then(() => this.props.history.push('/account'))
+        // .then(() => this.props.history.push('/account'))
         .catch(error => console.log(error));
         
     }
