@@ -3,11 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "react-scripts": "0.9.5",
     "eslint": "^3.19.0",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint-plugin-react": "^7.0.1",
+    "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "enzyme": "^2.9.1",
     "history": "^4.6.1",
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
@@ -24,6 +25,7 @@
     "react-scroll-listener": "^0.6.0",
     "react-simplemde-editor": "^3.6.11",
     "react-tap-event-plugin": "^2.0.1",
+    "react-test-renderer": "^15.6.1",
     "react-tooltip": "^3.3.0",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",

@@ -1,0 +1,15 @@
+exports[`Contact component render Contact 1`] = `
+<div
+  className="contact-container">
+  <h3>
+    Questions? Suggestions? Concerns?
+  </h3>
+  <p>
+    email: 
+    <a
+      href="mailto:politikosservice@gmail.com">
+      politikosservice@gmail.com
+    </a>
+  </p>
+</div>
+`;
