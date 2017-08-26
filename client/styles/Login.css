@@ -6,6 +6,10 @@
     box-shadow: 5px 5px 0 rgba(136, 136, 136, 1);
 }
 
+.login-container {
+    text-align: center;
+}
+
 .logIn > h3 {
     margin-bottom: 10px;
 }

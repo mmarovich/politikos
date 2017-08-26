@@ -1,5 +1,4 @@
 .routes-container {
-    text-align: center;
     min-height: calc(100% - 95px - 56px);
     margin: 30px auto 0;
 }
