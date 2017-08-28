@@ -112,6 +112,17 @@ export const userReducer = (state = initialState, action) => {
                     }
                 }
             }
+        case actions.DELETE_POST:
+            return {
+                ...state,
+                currentRepFeed: {
+                    ...state.currentRepFeed,
+                    feed: [
+                        ...state.currentRepFeed.feed.slice(0, action.postNum),
+                        ...state.currentRepFeed.feed.slice(action.postNum + 1)
+                    ]
+                }
+            }
         case actions.POST_COMMENT:
             if (action.postId === 0) {
                 return {

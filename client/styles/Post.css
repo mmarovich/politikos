@@ -27,6 +27,16 @@
     background-color: rgba(176, 190, 197, 1);
 }
 
+.delete-button-container {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.delete-button {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
 @media screen and (min-width: 1024px) {
     .post {
         width: 40%;

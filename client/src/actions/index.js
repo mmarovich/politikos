@@ -68,3 +68,9 @@ export const postUpdate = (post, postNum) => ({
     post,
     postNum
 })
+
+export const DELETE_POST = "DELETE_POST";
+export const deletePost = postNum => ({
+    type: DELETE_POST,
+    postNum
+})
