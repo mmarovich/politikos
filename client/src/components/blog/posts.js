@@ -1,6 +1,19 @@
 
 const postArray = [
     {
+        title: 'Update',
+        date: 'August 31, 2017',
+        body1: `I have added the ability for the client to delete their own posts and 
+        comments.  This was a critical feature that I wanted to finish.  Now, anyone who
+        is looking at the site can feel free to test out the functions without feeling
+        like their work is going to be permanently etched in the database.`,
+        body2: `The delete button will appear in the upper right corner of the user's posts
+        and comments if they so choose to delete their work.  My next goal along these lines-
+        though not a priority- would be to implement an update/edit feature so that the user
+        doesn't have to delete their entire post just because they made one silly mistake.`,
+        author: 'Maxwell Marovich'
+    },
+    {
         title: 'Launch',
         date: 'August 12th, 2017',
         body1: `Politikos has been launched, that there's plenty of work to be done
