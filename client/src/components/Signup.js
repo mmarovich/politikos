@@ -37,7 +37,6 @@ class Signup extends Component {
         })
             .then(response => response.json())
             .then(data => {
-                console.log(data)
                 if (data.msg) {
                     this.setState({ msg: data.msg })
                     return data;

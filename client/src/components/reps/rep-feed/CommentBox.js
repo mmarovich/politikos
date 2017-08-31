@@ -50,7 +50,6 @@ class CommentBox extends Component {
         const postId = this.props.item._id
         const username = this.props.username
         const comment = this.state.comment
-        console.log(this.props.postNum)
         this.commentOnPost(username, postId, comment)
     }
 

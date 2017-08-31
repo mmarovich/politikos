@@ -28,7 +28,7 @@ class Post extends Component {
 
     render() {
         const comments = this.props.item.comments ? this.props.item.comments.map((item, key) => {
-            return <Comment item={item} key={key} />
+            return <Comment item={item} key={key} postId={this.props.item._id} postNum={this.props.postNum} />
         }) : null;
 
         if (this.props.item.username === this.props.userInfo.username) {
@@ -38,9 +38,9 @@ class Post extends Component {
                     <div className="posted-headline"><ReactMarkdown source={this.props.item.headline ? this.props.item.headline : ""} /></div>
                     <div className="posted-link"><ReactMarkdown source={`[${this.props.item.link}](${this.props.item.link})`} /></div>
                     <div className="postedBy"><p>Posted by {this.props.item.username} on {this.props.item.date}</p></div>
-                    <div className="comments-container">{comments}</div>
                     <hr />
                     <FactCheck item={this.props.item} postNum={this.props.postNum} />
+                    <div className="comments-container">{comments}</div>
                     <CommentBox item={this.props.item} postNum={this.props.postNum} />
                 </div>
             )
@@ -50,9 +50,9 @@ class Post extends Component {
                     <div className="posted-headline"><ReactMarkdown source={this.props.item.headline ? this.props.item.headline : ""} /></div>
                     <div className="posted-link"><ReactMarkdown source={`[${this.props.item.link}](${this.props.item.link})`} /></div>
                     <div className="postedBy"><p>Posted by {this.props.item.username} on {this.props.item.date}</p></div>
-                    <div className="comments-container">{comments}</div>
                     <hr />
                     <FactCheck item={this.props.item} postNum={this.props.postNum} />
+                    <div className="comments-container">{comments}</div>
                     <CommentBox item={this.props.item} postNum={this.props.postNum} />
                 </div>
             )

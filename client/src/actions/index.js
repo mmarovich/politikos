@@ -74,3 +74,10 @@ export const deletePost = postNum => ({
     type: DELETE_POST,
     postNum
 })
+
+export const DELETE_COMMENT = "DELETE_COMMENT";
+export const deleteComment = (post, postNum) => ({
+    type: DELETE_COMMENT,
+    post,
+    postNum
+})

@@ -72,7 +72,6 @@ class RepFeed extends Component {
                 }
             })
             .then((rep, id) => {
-                console.log(rep)
                 if (rep.feed.length === 0 && this.props.feed.length === 0) {
                     return store.dispatch(actions.feed([], rep.id))
                 }

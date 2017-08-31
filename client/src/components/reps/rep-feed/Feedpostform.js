@@ -45,7 +45,6 @@ class FeedPostForm extends Component {
         })
             .then(response => response.json())
             .then(newPost => {
-                console.log(newPost)
                 this.setState({ makePost: false, headline: "", link: "" })
                 this.props.showFeed()
                 return store.dispatch(actions.feedUpdate(newPost))

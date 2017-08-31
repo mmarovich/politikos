@@ -53,7 +53,6 @@ class Login extends Component {
             return response.json()
         }, (err) => console.log(err))
         .then(user => {
-            console.log(user)
             return store.dispatch(actions.logIn({
                 username: user.username,
                 id: user._id,

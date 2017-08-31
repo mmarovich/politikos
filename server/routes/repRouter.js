@@ -129,9 +129,37 @@ module.exports = function (app) {
                 console.log(err)
             }
             else {
-                res.json({msg:"Removed"});
+                res.json({msg:"Post deleted"});
             }
         });
+    })
+
+    app.post('/api/delete-comment', function (req, res) {
+        Comment.remove({
+            _id: req.body.commentId
+        }, function (err) {
+            if (err) {
+                console.log(err)
+            }
+            else {
+                Post.findByIdAndUpdate({
+                    _id: req.body.postId,
+                }, {
+                    $pull: {
+                        comments: req.body.commentId
+                    }
+                }, 
+                {new: true})
+                .populate('legits comments')
+                .exec((err, post) => {
+                    console.log(post)
+                    if (err) {
+                        throw err;
+                    }
+                    res.status(200).json(post)
+                })
+            }
+        })
     })
 
 
